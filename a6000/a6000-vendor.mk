@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/lenovo/a6000/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/a6000/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/a6000/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/a6000/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -148,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
