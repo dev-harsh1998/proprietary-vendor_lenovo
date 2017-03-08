@@ -20,6 +20,17 @@ ifeq ($(TARGET_DEVICE),a6000)
 
 
 ifeq ($(QCPATH),)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqminvapi
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/lib/libqminvapi.so
+LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/lib
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := lenovo

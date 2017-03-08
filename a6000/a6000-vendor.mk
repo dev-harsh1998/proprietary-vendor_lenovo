@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/a6000/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lenovo/a6000/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/lenovo/a6000/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/lenovo/a6000/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/a6000/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/lenovo/a6000/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -610,6 +609,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
+    libqminvapi \
     libmm-disp-apis \
     libtime_genoff \
     shutdownlistener \
