@@ -118,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
