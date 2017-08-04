@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/a6000/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/a6000/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/lenovo/a6000/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/a6000/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lenovo/a6000/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/a6000/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -117,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/lenovo/a6000/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/lenovo/a6000/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/lenovo/a6000/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/lenovo/a6000/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/lenovo/a6000/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
@@ -259,7 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
