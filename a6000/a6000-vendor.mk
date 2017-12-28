@@ -149,9 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_2gong_camcorder.so:system/vendor/lib/libactuator_dw9718s_2gong_camcorder.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_2gong_camera.so:system/vendor/lib/libactuator_dw9718s_2gong_camera.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_2gong.so:system/vendor/lib/libactuator_dw9718s_2gong.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:system/vendor/lib/libactuator_dw9718s_camcorder.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_camera.so:system/vendor/lib/libactuator_dw9718s_camera.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
@@ -167,11 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_gc2355_8916_preview.so:system/vendor/lib/libchromatix_gc2355_8916_preview.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_2gong_common.so:system/vendor/lib/libchromatix_imx219_2gong_common.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_2gong_default_video.so:system/vendor/lib/libchromatix_imx219_2gong_default_video.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_2gong_liveshot.so:system/vendor/lib/libchromatix_imx219_2gong_liveshot.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_2gong_preview.so:system/vendor/lib/libchromatix_imx219_2gong_preview.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_2gong_snapshot.so:system/vendor/lib/libchromatix_imx219_2gong_snapshot.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_q8n13a_common.so:system/vendor/lib/libchromatix_imx219_q8n13a_common.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_q8n13a_default_video.so:system/vendor/lib/libchromatix_imx219_q8n13a_default_video.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so \
