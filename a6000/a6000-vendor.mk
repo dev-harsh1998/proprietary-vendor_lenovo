@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/a6000/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/a6000/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/lenovo/a6000/proprietary/lib/sensors.a6000.so:system/lib/sensors.a6000.so \
     vendor/lenovo/a6000/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/lenovo/a6000/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/a6000/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
