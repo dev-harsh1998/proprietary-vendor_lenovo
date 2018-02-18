@@ -52,6 +52,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/lib/sensors.a6000.so:system/lib/sensors.a6000.so \
     vendor/lenovo/a6000/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/lenovo/a6000/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libfacenet-32.so:system/vendor/lib/libfacenet-32.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libprotobuf-cpp-haxx.so:system/vendor/lib/libprotobuf-cpp-haxx.so \
     vendor/lenovo/a6000/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/a6000/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lenovo/a6000/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
