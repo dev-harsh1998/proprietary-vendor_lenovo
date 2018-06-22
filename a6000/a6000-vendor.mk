@@ -206,7 +206,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
+    vendor/lenovo/a6000/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+	vendor/lenovo/a6000/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/lenovo/a6000/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/lenovo/a6000/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/lenovo/a6000/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/lenovo/a6000/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+	vendor/lenovo/a6000/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
