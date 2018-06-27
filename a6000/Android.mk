@@ -20,7 +20,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),a6000)
 
 
-ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := lenovo
@@ -90,5 +89,4 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
-endif
 endif
