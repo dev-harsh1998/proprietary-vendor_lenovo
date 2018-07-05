@@ -208,16 +208,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/lenovo/a6000/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/a6000/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/lenovo/a6000/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/a6000/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/lenovo/a6000/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lenovo/a6000/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/lenovo/a6000/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
-    vendor/lenovo/a6000/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/lenovo/a6000/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/lenovo/a6000/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/lenovo/a6000/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
@@ -230,16 +227,20 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/lenovo/a6000/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
+    vendor/lenovo/a6000/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
+    vendor/lenovo/a6000/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
+    vendor/lenovo/a6000/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/lenovo/a6000/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
+    vendor/lenovo/a6000/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
+    vendor/lenovo/a6000/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
     libtime_genoff \
     shutdownlistener \
     TimeService \
