@@ -46,8 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lenovo/a6000/proprietary/lib/sensors.a6000.so:system/lib/sensors.a6000.so \
     vendor/lenovo/a6000/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libfacenet-32.so:system/vendor/lib/libfacenet-32.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libprotobuf-cpp-haxx.so:system/vendor/lib/libprotobuf-cpp-haxx.so \
     vendor/lenovo/a6000/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/lenovo/a6000/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/lenovo/a6000/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
