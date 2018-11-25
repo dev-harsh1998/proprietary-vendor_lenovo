@@ -48,7 +48,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/lenovo/a6000/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/lenovo/a6000/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
-    vendor/lenovo/a6000/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/lenovo/a6000/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/lenovo/a6000/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/lenovo/a6000/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libfeedbackhandler.so:system/vendor/lib/libfeedbackhandler.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libqti-utils.so:system/vendor/lib/libqti-utils.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
