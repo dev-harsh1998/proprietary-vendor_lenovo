@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/lenovo/a6000/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/lenovo/a6000/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
-    vendor/lenovo/a6000/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/lenovo/a6000/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
     vendor/lenovo/a6000/proprietary/vendor/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/lenovo/a6000/proprietary/vendor/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
@@ -221,7 +220,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
-    libtime_genoff \
     shutdownlistener \
-    TimeService \
     qcrilmsgtunnel
