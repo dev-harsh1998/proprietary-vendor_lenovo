@@ -231,7 +231,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so
+    vendor/lenovo/a6000/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
 
 # Dirac
 PRODUCT_COPY_FILES += \
