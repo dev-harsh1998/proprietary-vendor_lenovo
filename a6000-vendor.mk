@@ -215,6 +215,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/lenovo/a6000/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/lenovo/a6000/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libcpion.so:system/vendor/lib/libcpion.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libhdcpsrm.so:system/vendor/lib/libhdcpsrm.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
