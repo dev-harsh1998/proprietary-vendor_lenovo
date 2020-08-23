@@ -240,12 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
 
-# Dirac
-PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6000/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so
-
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
